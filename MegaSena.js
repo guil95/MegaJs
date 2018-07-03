@@ -4,8 +4,8 @@ class MegaSena{
       this.numbers = []
    }
    
-	 getRandomNumber(){
-     let numberRandom = Math.floor(Math.random() * (60 - 1 + 1)) + 1
+   getRandomNumber(){
+    let numberRandom = Math.floor(Math.random() * (60 - 1 + 1)) + 1
 
     if(this.numbers.indexOf(numberRandom) < 0 ){
       this.numbers.push(numberRandom)
