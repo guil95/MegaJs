@@ -18,6 +18,6 @@ class MegaSena{
   }
 }
 
-let mega = new MegaSena();
-mega.getRandomNumber();
-console.log(mega.numbers)
+//let mega = new MegaSena();
+//mega.getRandomNumber();
+//console.log(mega.numbers)
