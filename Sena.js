@@ -1,7 +1,7 @@
 class Sena{
 
    constructor(qtdNumbers) {
-   		this.qtdNumbers = qtdNumbers > 60 ? 0 : qtdNumbers
+      this.qtdNumbers = qtdNumbers > 60 ? 0 : qtdNumbers
       this.numbers = []
    }
    
