@@ -7,7 +7,7 @@ class MegaSena{
    getRandomNumber(){
     let numberRandom = Math.floor(Math.random() * 60) + 1;
 
-    if(this.numbers.indexOf(numberRandom) < 0 ){
+    if(this.numbers.indexOf(this.setLeftZero(numberRandom)) < 0 ){
       this.addNumber(numberRandom);
     }
 
