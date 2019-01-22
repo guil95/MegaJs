@@ -23,11 +23,7 @@ class MegaSena{
   
   setLeftZero(number){
   	number += '';
-  	if(number.length === 1){ 
-    	return '0'+number;
-    }
-    
-    return number;
+   return number.length === 1 ? '0'+number : number;
   }
 }
 
