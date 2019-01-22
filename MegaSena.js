@@ -17,8 +17,17 @@ class MegaSena{
   }
   
   addNumber(numberRandom){
-    this.numbers.push(numberRandom);
+    this.numbers.push(this.setLeftZero(numberRandom));
     this.numbers.sort((a, b) => a - b);
+  }
+  
+  setLeftZero(number){
+  	number += '';
+  	if(number.length === 1){ 
+    	return '0'+number;
+    }
+    
+    return number;
   }
 }
 
